@@ -44,8 +44,6 @@ Pick your favorite platform to deploy `QUEEN_KYLIE-V1`:
       <img src="https://img.shields.io/badge/-💻_Deploy_on_Replit-red?style=for-the-badge&logo=replit&logoColor=white"/>
     </a>
     <br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Replit_logo.png" width="50" />
-    <br>
     <a href="https://replit.com/github/Jupiterbold05/Aboveall" style="font-size: 14px;">Create Account</a>
   </div>
 

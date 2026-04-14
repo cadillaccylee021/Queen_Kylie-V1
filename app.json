@@ -1,0 +1,21 @@
+{
+  "name": "Queen-Kylie-v1",
+  "description": "Queen Kylie V1 WhatsApp Bot",
+  "repository": "",
+  "keywords": ["whatsapp", "bot"],
+  "env": {
+    "SESSION_ID":    { "description": "Your QUEEN KYLIE*V2= session ID", "required": true },
+    "OWNER_NUMBER":  { "description": "Owner phone number (no + or spaces)", "required": true },
+    "OWNER_NAME":    { "description": "Owner display name", "value": "Owner" },
+    "BOT_NAME":      { "description": "Bot display name", "value": "QUEEN-KYLIE-V1" },
+    "PREFIX":        { "description": "Command prefix", "value": ":" },
+    "MODE":          { "description": "public or private", "value": "public" },
+    "MONGO_URI":     { "description": "MongoDB URI (optional)", "required": false }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "formation": {
+    "web": { "quantity": 1, "size": "eco" }
+  }
+}

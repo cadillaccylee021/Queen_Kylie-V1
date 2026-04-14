@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "badwordAction": "warn",
+    "deleteOnWarn": true,
+    "warnLimit": 3,
+    "onWarnLimit": "kick"
+  },
+  "welcome": {
+    "enabledChats": {}
+  },
+  "goodbye": {
+    "enabledChats": {}
+  }
+}
